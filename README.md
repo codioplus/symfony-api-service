@@ -5,7 +5,10 @@ is about providing an API of products, includes setting up a backend - preferabl
 to install follow below:
 
 1-run in terminal: composer install
+
 2-in .env adjust database connection
+
 3-run in terminal: php bin/console doctrine:migrations:migrate 
-3-run in terminal: symfony server:start 
+
+4-run in terminal: symfony server:start 
 
